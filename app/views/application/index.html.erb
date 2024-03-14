@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz App</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <!-- Include any CSS stylesheets here -->
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <!-- Include any JavaScript libraries or scripts here -->
+<script type="importmap">
+{
+  "imports": {
+    "lodash": "https://cdn.skypack.dev/lodash@4.17.21" 
+  }
+}
+</script>
+</head>
+<body>
+  <div class="container">
+    <!-- Your quiz content goes here -->
+    <h1>Welcome to the Quiz App</h1>
+    <%# <%= render "questions/question" %> 
+  </div>
+</body>
+</html>
